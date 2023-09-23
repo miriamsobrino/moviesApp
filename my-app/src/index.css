@@ -148,6 +148,7 @@ body {
   width: 40px;
   font-size: 1.1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .favorited .fa-heart-solid {
@@ -168,15 +169,18 @@ body {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  color: var(--bg);
   font-size: 0.9rem;
   font-weight: bold;
   border: 2px solid var(--yellow);
+  text-decoration: none;
 }
 .favorites-active {
   background: transparent;
   border: 2px solid var(--yellow);
   color: var(--white);
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {
